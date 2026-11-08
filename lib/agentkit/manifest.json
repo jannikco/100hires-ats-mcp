@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-100hires-ats",
+      "description": "Connect AI agents to 100Hires ATS using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-100hires-ats/SKILL.md": "cc8d71d6c28880ddf9a622f015122598e11d1e52b0cd9fa0a47931fb0ff754b0"
+  }
+}
