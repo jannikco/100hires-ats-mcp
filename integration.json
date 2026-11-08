@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "0734116bfce0cb0dd64df408538b35d0347c66709570d50246ead6cfd9fbb566",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.100hires.com/v2/openapi.json"
+  ],
+  "id": "100hires-ats-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "100Hires ATS MCP setup and connection checker",
+  "description": "Generate 100Hires ATS MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "100hires-ats",
+  "appName": "100Hires ATS",
+  "providerDocs": "https://api.100hires.com/v2/openapi.json",
+  "providerWebsite": "https://100hires.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://100hires.com/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-100hires-ats-mcp"
+}
